@@ -1,0 +1,25 @@
+# Generated Fabric artifacts
+organizations/
+channel-artifacts/
+vm2-transfer/
+vm3-transfer/
+
+# Archives
+*.tar.gz
+*.tar
+
+# Cryptographic material
+*.pem
+*.key
+*_sk
+**/keystore/
+
+# Environment variables
+.env
+.env.*
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
